@@ -23,7 +23,7 @@ def read_file(uploaded_file):
     if file_name.endswith(".pdf"):
 
         try:
-            from PyPDF2 import PdfReader
+            from pypdf import PdfReader
 
             file_bytes = uploaded_file.getvalue()
 
@@ -45,8 +45,8 @@ def read_file(uploaded_file):
         except ImportError:
 
             raise RuntimeError(
-                "PDF support requires PyPDF2. "
-                "Please run: pip install PyPDF2"
+                "PDF support requires pypdf. "
+                "Please run: pip install pypdf"
             )
 
         except Exception as exc:
