@@ -62,14 +62,9 @@ AI-Resume-Analyzer/
 ├── assets/
 │   ├── Screenshots/
 │   └── style.css
-│
 ├── prompts/
-├── reports/
-├── resumes/
 ├── services/
-├── uploads/
 ├── utils/
-│
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
@@ -180,6 +175,7 @@ Store the API key in the `.env` file. Never upload the API key to GitHub.
 4. Explore suitable career roles using Career Role Fit.
 5. Upload a Job Description to compare it with the resume.
 6. Review the match score, matched skills, missing skills, verdict, and AI recommendations.
+7. Download the generated Resume Analysis or JD Match report.
 
 ## 👤 Author
 
