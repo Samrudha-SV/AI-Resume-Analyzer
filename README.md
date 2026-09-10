@@ -2,6 +2,10 @@
 
 An AI-powered Resume Analyzer built with Python, Streamlit, and Google Gemini. The application analyzes resumes, evaluates ATS compatibility, suggests suitable career roles, and compares a resume against a Job Description.
 
+## 🚀 Live Demo
+
+👉 [Try AI Resume Analyzer](https://resumelens-ai.streamlit.app)
+
 ## ✨ Features
 
 ### 📄 Resume Analysis
